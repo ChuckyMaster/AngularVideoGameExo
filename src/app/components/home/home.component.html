@@ -1,0 +1,36 @@
+<div class="filters">
+  <mat-form-field>
+    <mat-label class="white"> Sort</mat-label>
+    <mat-select panelClass="sort-select" [(ngModel)]="sort">
+      <mat-option value="name"> Name</mat-option>
+      <mat-option value="released"> Released</mat-option>
+      <mat-option value="added"> Added</mat-option>
+      <mat-option value="created"> Created</mat-option>
+      <mat-option value="rating"> Rating</mat-option>
+      <mat-option value="metacritic"> metacritic</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <div class="games">
+    <div class="game">
+      <div class="game-thumb-container">
+        <img
+          class="game-thumbnail"
+          src="https://imgsrv2.voi.id/Y6UAuHslXD33n2NUtchwrLUxrSHb02Gi3iGVC34DqhY/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy80NDcxOS8yMDIxMDQxNTIwNDYtbWFpbi5jcm9wcGVkXzE2MTg0OTQ0MTUuanBn.jpg"
+          alt=""
+        />
+      </div>
+
+      <div class="game-description">
+        <p class="game-name">Name</p>
+        <div class="game-platforms">
+          <img
+            src="https://www.jeuxactu.com/datas/jeux/m/o/mortal-kombat-11-ultimate/vn/mortal-kombat-11-ultimate-5fb4c9db9e99b.jpg"
+            alt="sui"
+            class="game-platform"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
